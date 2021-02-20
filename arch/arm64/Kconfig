@@ -366,6 +366,18 @@ config EXYNOS_DTBH_PAGE_SIZE
 
 endif
 
+config DTS_EXYNOS7570_J4LTE_MEA_OPEN_00
+	bool "exynos7570-j4lte_mea_open_00.dts"
+	depends on SOC_EXYNOS7570
+
+config DTS_EXYNOS7570_J4LTE_MEA_OPEN_01
+	bool "exynos7570-j4lte_mea_open_01.dts"
+	depends on SOC_EXYNOS7570
+
+config DTS_EXYNOS7570_J4LTE_MEA_OPEN_02
+	bool "exynos7570-j4lte_mea_open_02.dts"
+	depends on SOC_EXYNOS7570
+
 endmenu
 
 endmenu
