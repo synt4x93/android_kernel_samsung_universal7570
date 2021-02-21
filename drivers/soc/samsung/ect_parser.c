@@ -2140,7 +2140,7 @@ int ect_strcmp(char *src1, char *src2)
 	return ((*(unsigned char *)src1 < *(unsigned char *)src2) ? -1 : +1);
 }
 
-void __init ect_init_map_io(void)
+void ect_init_map_io(void)
 {
 	int page_size, i;
 	struct page *page;
